@@ -38,7 +38,7 @@ if (!$_COOKIE['maria']&&!$_COOKIE['luciana']&&!$_COOKIE['antonio']&&!$_COOKIE['m
 &&!$_COOKIE['adm']&&!$_COOKIE['graca']&&!$_COOKIE['anderson']&&!$_COOKIE['altope']&&!$_COOKIE['olx']&&!$_COOKIE['zap']&&!$_COOKIE['viva']) {
 ?>
 
-<link rel="stylesheet" href="check50.css">
+<link rel="stylesheet" href="css/check50.css">
 <body>
   <div class="login">
     <h2>Bem vindo: <?php echo $_SERVER['PHP_AUTH_USER']?></h2>
@@ -177,7 +177,7 @@ if ($_POST['entrar']) {
       header("Refresh: $sec; url=$page");
 
     } return; }?>
-<link rel="stylesheet" href="front1022.css">
+<link rel="stylesheet" href="css/front1022.css">
 
 <body>
   <div class="sidenav">
